@@ -8,6 +8,7 @@ public class Collected : MonoBehaviour
     private CircleCollider2D cc;
     public GameObject gm;
     public int score;
+    
 
     // Start is called before the first frame update
     void Start()
