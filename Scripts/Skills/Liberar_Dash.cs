@@ -26,7 +26,7 @@ public class Liberar_Dash : MonoBehaviour
                 saws[cont].SetActive(true);
                 cont++;
             }
-            Player.play.liberarDash = true;
+            Player1.play.liberarDash = true;
             Destroy(gameObject);
 
         }

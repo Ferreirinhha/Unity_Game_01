@@ -7,9 +7,9 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class GameControler : MonoBehaviour
+public class GameControler1 : MonoBehaviour
 {
-    public static GameControler instance;
+    public static GameControler1 instance;
 
     [Header("Falling Plataform")]
     [SerializeField] private GameObject[] plataformsInScene;
@@ -40,7 +40,7 @@ public class GameControler : MonoBehaviour
     }
     public void UpdateText()
     {
-        HUD_Controler.hud.score.text = totalScore.ToString();
+        HUD_Controler1.hud.score.text = totalScore.ToString();
     }
     public void RestartGame(string level)
     {

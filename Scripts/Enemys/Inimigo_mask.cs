@@ -57,19 +57,19 @@ public class Inimigo_mask : MonoBehaviour
         if(collision.gameObject.layer == 7)
         {
             // Toda vez que o player colidir com o enemy, o contador recebe o bk time sendo maior que zero e levando o kb
-            Player.play.kbCount = Player.play.bktime;
+            Player1.play.kbCount = Player1.play.bktime;
 
-            Player.play.TakeInvencible();
+            Player1.play.TakeInvencible();
 
             // Se o player estiver a esquerda do inimigo, será arremessado para a esquerda
             if(collision.transform.position.x <= transform.position.x)
             {
-                Player.play.isKB = true;
+                Player1.play.isKB = true;
             }
             // Se o player estiver a direita do inimigo, será arremessado para a direita
             else if(collision.transform.position.x > transform.position.x)
             {
-                Player.play.isKB = false;
+                Player1.play.isKB = false;
             }
         }
     }

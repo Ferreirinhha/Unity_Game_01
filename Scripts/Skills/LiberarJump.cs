@@ -34,7 +34,7 @@ public class LiberarJump : MonoBehaviour
             }
             trapActive = 0;
             win.SetActive(true);
-            Player.play.liberarJump = true;
+            Player1.play.liberarJump = true;
             Destroy(gameObject);
         }
     }

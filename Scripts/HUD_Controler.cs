@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HUD_Controler : MonoBehaviour
+public class HUD_Controler1 : MonoBehaviour
 {
-    public static HUD_Controler hud;
+    public static HUD_Controler1 hud;
     public GameObject gameOver;
     [SerializeField] private GameObject[] hearts;
     public Text score;

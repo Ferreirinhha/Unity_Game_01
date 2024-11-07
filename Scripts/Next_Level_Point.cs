@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Next_Level_Point : MonoBehaviour
+public class Next_Level_Point1 : MonoBehaviour
 {
     public string nextLevel;
     void OnTriggerEnter2D(Collider2D collider)
